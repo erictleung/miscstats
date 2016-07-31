@@ -25,3 +25,23 @@ sample estimates:
 mean of x mean of y
     3.100  1505.148
 ```
+
+The above is assuming each dataset has different variances.
+
+To assume the same variances and to perform a "normal" t-test, you need to
+specify this.
+
+```R
+> t.test(discoveries, eurodist, var.equal = TRUE)
+
+        Two Sample t-test
+
+data:  discoveries and eurodist
+t = -16.698, df = 308, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1679.052 -1325.044
+sample estimates:
+mean of x mean of y
+    3.100  1505.148
+```
