@@ -1,11 +1,17 @@
 # Probability and Statistics
 
-This repository contains notes on various probability and statistical concepts.
-There are also R scripts that demonstrate the concepts I have noted on.
+Python package to reimplement statistical functions in R's
+[`stats` package](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/00Index.html).
+
+**Contents**
+
+- [Motivation](#motivation)
+- [License](#license)
+
+## Motivation
+
+Previously, this repository contained notes and some R code to learn probability and statistics. However, taking notes is a relatively passive activity. Meanwhile, creating something is a lot more engaging and functional. So I've decided to reborn this repository into one that reimplements statistical and probability functions commonly found in R.
 
 ## License
 
-<a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
-  <img src="https://licensebuttons.net/p/zero/1.0/80x15.png"
-    style="border-style: none;" alt="CC0" />
-</a>
+MIT
