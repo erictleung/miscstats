@@ -1,4 +1,4 @@
-statistics
+miscstats
 ===============================
 
 > Python package to reimplement statistical functions in R's
@@ -27,12 +27,12 @@ Installation / Usage
 
 To install use pip:
 
-    $ pip install statistics
+    $ pip install miscstats
 
 
 Or clone the repo:
 
-    $ git clone https://github.com/erictleung/statistics.git
+    $ git clone https://github.com/erictleung/miscstats.git
     $ python setup.py install
 
 
